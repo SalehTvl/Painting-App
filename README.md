@@ -8,7 +8,9 @@
 
 This project is a **digital painting application** built using **Python** and the **Kivy** framework. It features a real-time drawing interface designed to simulate a networked environment.
 
-Initially conceptualized as an embedded project for a **Raspberry Pi** touch display, the project was adapted into a pure Linux-based simulation due to hardware unavailability in our department. It demonstrates how to handle touch events, graphical rendering, and networked communication (Socket/WebSocket) within a GUI application.
+Initially conceptualized as an embedded project for a **Raspberry Pi** touch display, the project was adapted into a pure Linux-based simulation due to hardware unavailability in our department. Though thanks to python compatibility features, it works fine on other operating systems as well as MacOS and Windows.
+
+It demonstrates how to handle touch events, graphical rendering, and networked communication (Socket/WebSocket) within a GUI application.
 
 ## ✨ Key Features
 
@@ -45,7 +47,8 @@ source venv/bin/activate
 pip install kivy pygame pillow
 ```
 
-4. **Run the application:**
+4. **Run the application:(Run Server and Client apps)**
 ``` bash
-python main.py
+python server.py
+python client.py
 ```
