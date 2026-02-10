@@ -47,7 +47,7 @@ source venv/bin/activate
 pip install kivy pygame pillow
 ```
 
-4. **Run the application:(Run Server and Client apps)**
+4. **Run the application(Run Server and Client apps):**
 ``` bash
 python server.py
 python client.py
